@@ -17,8 +17,7 @@
 <p align="center">
   <a href="#rocket-about-the-challenge">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="http://bit.ly/38cGQit">Documentation</a>
+    <a href="#how-to-use">How To Use</a>
 </p>
 
 ## :rocket: About The Challenge
@@ -30,24 +29,44 @@ Application to view the repositories.
 This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
 
 -  [React Native](https://reactnative.dev/)
+- [Axios Mock Adapter](https://github.com/ctimmerm/axios-mock-adapter)
+- [Jest Native](https://jestjs.io/docs/pt-BR/tutorial-react-native)
 -  [Axios](https://github.com/axios/axios)
 
 ## How To Use
 
+- Backend Repository
 ```bash
-# Clone this repository
-$ git clone https://github.com/KaiqueCovo/bootcamp-gostack-desafio-01
+# Clone Backend repository
+$ git clone git@github.com:KaiqueCovo/gostack-challenge-nodejs-concepts.git
 
-# Go into the repository
-$ cd bootcamp-gostack-desafio-01
+# Go to into the repository
+$ cd gostack-challenge-nodejs-concepts
 
-# Install dependencies
+# Install dependencies from repository
 $ yarn install or npm install
 
 # Run the API
 $ yarn dev or npm run dev
 ```
 
+- Mobile Repository
+```bash
+# Clone Mobile repository
+$ git clone git@github.com:KaiqueCovo/gostack-challenge-reactnative-concepts.git
+
+# Go to into the repository
+$ cd gostack-challenge-reactnative-concepts
+
+# Install dependencies from repository
+$ yarn install or npm install
+
+# Run tests
+$ yarn test
+
+# Run the emulador Android
+$ react-native run-android
+```
 ---
 
 Made with ♥ by Kaique Covo :wave:
